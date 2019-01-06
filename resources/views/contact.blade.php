@@ -380,22 +380,22 @@
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="form-group service-form-group">
-                                        <label class="control-label sr-only" for="name"></label>
-                                        <input id="name" type="text" placeholder="First Name" class="form-control" required>
+                                        <label class="control-label sr-only" for="first_name"></label>
+                                        <input id="first_name" type="text" placeholder="First Name" class="form-control" required>
                                         <div class="form-icon"><i class="fa fa-user"></i></div>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="form-group service-form-group">
-                                        <label class="control-label sr-only" for="name"></label>
-                                        <input id="name" type="text" placeholder="Last Name" class="form-control" required>
+                                        <label class="control-label sr-only" for="second_name"></label>
+                                        <input id="second_name" type="text" placeholder="Last Name" class="form-control" required>
                                         <div class="form-icon"><i class="fa fa-user"></i></div>
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group service-form-group">
                                         <label class="control-label sr-only" for="email"></label>
-                                        <input id="email" type="email" placeholder="Email" class="form-control" required>
+                                        <input id="email" type="email" placeholder="Email (Optional)" class="form-control" required>
                                         <div class="form-icon"><i class="fa fa-envelope"></i></div>
                                     </div>
                                 </div>
@@ -415,13 +415,13 @@
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group">
-                                        <label class="control-label sr-only" for="textarea"></label>
-                                        <textarea class="form-control" id="textarea" name="textarea" rows="3" placeholder="Messages"></textarea>
+                                        <label class="control-label sr-only" for="message"></label>
+                                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                    <button type="submit" name="singlebutton" class="btn btn-default btn-block mb10">send message</button>
-                                    <p><small>We promise we will never SPAM you with unwanted emails.</small></p>
+                                    <a id="form-submit" class="btn btn-default btn-block mb10">send message</a>
+                                    <label for="newsletter"><input type="checkbox" id="newsletter"><small> I would like to receive newsletter emails.</small></label>
                                 </div>
                             </div>
                         </div>
