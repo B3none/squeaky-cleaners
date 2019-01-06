@@ -36468,6 +36468,10 @@ formSubmit.on('click', function () {
     if (value.attr('type') === 'checkbox') {
       values[value.attr('id')] = value.is(':checked');
     }
+
+    if (value.val() === '') {
+      values[value.attr('id')] = null;
+    }
   });
   console.log(values);
   axios.post('/api/enquiry', values).then(function (r) {

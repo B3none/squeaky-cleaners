@@ -13,6 +13,10 @@ formSubmit.on('click', () => {
         if (value.attr('type') === 'checkbox') {
             values[value.attr('id')] = value.is(':checked');
         }
+
+        if (value.val() === '') {
+            values[value.attr('id')] = null;
+        }
     });
 
     console.log(values);
