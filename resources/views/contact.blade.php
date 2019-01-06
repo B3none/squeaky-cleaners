@@ -376,7 +376,7 @@
                         <div class="service-form">
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb10">
-                                    <h3>Affordable Home Cleaning Services in and around Belper</h3>
+                                    <h3>Affordable Home Cleaning Services in Belper</h3>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="form-group service-form-group">
@@ -395,7 +395,7 @@
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group service-form-group">
                                         <label class="control-label sr-only" for="email"></label>
-                                        <input id="email" type="email" placeholder="Email (Optional)" class="form-control" required>
+                                        <input id="email" type="email" placeholder="Email (Optional)" class="form-control">
                                         <div class="form-icon"><i class="fa fa-envelope"></i></div>
                                     </div>
                                 </div>
