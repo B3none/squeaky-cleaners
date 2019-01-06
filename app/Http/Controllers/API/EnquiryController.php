@@ -28,6 +28,7 @@ class EnquiryController extends Controller
         $newsletter = $request->post('newsletter');
 
         return json_encode([
+            'exampleResponse',
             $firstName,
             $lastName,
             $email,

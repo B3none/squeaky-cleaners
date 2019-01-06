@@ -16,4 +16,6 @@ formSubmit.on('click', () => {
     });
 
     console.log(values);
+    axios.post('/api/enquiry', values)
+        .then(r => console.log(r.data));
 });

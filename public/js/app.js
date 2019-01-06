@@ -36470,6 +36470,9 @@ formSubmit.on('click', function () {
     }
   });
   console.log(values);
+  axios.post('/api/enquiry', values).then(function (r) {
+    return console.log(r.data);
+  });
 });
 
 /***/ }),
