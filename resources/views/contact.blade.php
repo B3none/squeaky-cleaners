@@ -330,9 +330,15 @@
             }
 
             .space-medium{padding-top:80px; padding-bottom:80px;}
+
+            #form-submit {
+                color: #fff;
+            }
         </style>
     </head>
     <body>
+    @include('partials/navbar')
+
     <div class="space-medium">
         <div class="container">
             <div class="row">
@@ -345,7 +351,7 @@
                         <div class="feature-left">
                             <div class="feature-icon"><i class="far fa-address-book"></i></div>
                             <div class="feature-content">
-                                <p>Nullam fringilla accumsan sem a luctuse llentesque dui rossollicitudin.</p>
+                                <p>Hundreds of satisfied clients.</p>
                             </div>
                         </div>
                         <!-- /.feature-left -->
@@ -353,7 +359,7 @@
                         <div class="feature-left">
                             <div class="feature-icon"><i class="far fa-compass"></i></div>
                             <div class="feature-content">
-                                <p>Phasellus finibus tortor a purus ultricies dicestibulum sempera splacera.</p>
+                                <p>We operate within an 8 mile radius of Belper town centre.</p>
                             </div>
                         </div>
                         <!-- /.feature-left -->
@@ -361,7 +367,7 @@
                         <div class="feature-left">
                             <div class="feature-icon"><i class="far fa-question-circle"></i></div>
                             <div class="feature-content">
-                                <p>Vivamus eu nunc id dolor auctor eleifend mauris ante ligula vestibulum.</p>
+                                <p>We normally respond to new enquiries within 5 working days.</p>
                             </div>
                         </div>
                         <!-- /.feature-left -->
@@ -420,7 +426,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                    <a id="form-submit" class="btn btn-default btn-block mb10">send message</a>
+                                    <a id="form-submit" class="btn btn-primary btn-block mb10">send message</a>
                                     <label for="newsletter"><input type="checkbox" id="newsletter"><small> I would like to receive newsletter emails.</small></label>
                                 </div>
                             </div>

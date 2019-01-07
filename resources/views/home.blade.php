@@ -32,6 +32,7 @@
 
                 <div class="links">
                     <a href="/about">About</a>
+                    <a href="/services">Services</a>
                     <a href="/contact">Contact us</a>
                 </div>
             </div>
