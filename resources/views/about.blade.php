@@ -10,59 +10,6 @@
     <link href="css/app.css" rel="stylesheet" type="text/css">
 
     <style>
-        body {
-            -webkit-font-smoothing: antialiased;
-            text-rendering: optimizeLegibility;
-            font-family: 'Barlow Semi Condensed', sans-serif;
-            letter-spacing: 0;
-            font-size: 18px;
-            color: #50595e;
-            font-weight: 400;
-            line-height: 28px;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-weight: 500;
-            color: #06131a;
-            margin: 0px 0px 15px 0px;
-            font-family: 'Barlow Semi Condensed', sans-serif;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        h2 {
-            font-size: 30px;
-            line-height: 38px;
-        }
-
-        h3 {
-            font-size: 22px;
-        }
-
-        h4 {
-            font-size: 18px;
-        }
-
-        h5 {
-            font-size: 16px;
-        }
-
-        h6 {
-            font-size: 14px;
-        }
-        p { margin: 0 0 20px; line-height: 1.7; }
-        p:last-child { margin: 0px; }
-        ul, ol { }
-        a { text-decoration: none; color: #62686c; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
-        a:focus, a:hover { text-decoration: none; color: #f67800; }
-
         .content{padding-top:80px; padding-bottom:80px;}
         .mb40{margin-bottom:40px;}
         .team-block { margin-bottom: 20px; }
